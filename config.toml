@@ -15,10 +15,10 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "Hello Friend"
-    subtitle = "A simple theme for Hugo"
+    title = "Election Data Science"
+    subtitle = "SVargas"
     keywords = ""
-    copyright = ""
+    copyright = "Sonia"
     menuMore = "Show more"
     writtenBy = "Written by"
     readMore = "Read more"
