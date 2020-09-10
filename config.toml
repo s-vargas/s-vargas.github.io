@@ -16,7 +16,7 @@ paginate = 5
 [languages]
   [languages.en]
     title = "Election Data Science"
-    subtitle = "A simple theme for Hugo from Sonia <3"
+    subtitle = "by Sonia <3"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
