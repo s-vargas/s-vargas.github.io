@@ -1,19 +1,79 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Election Data Science</title>
+    
+    
+    
     <link>/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Election Data Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Falls are Hard</title>
       <link>/post/falls-are-hard/</link>
       <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/falls-are-hard/</guid>
-      <description>Throughout my college career, I have found that my fall semesters are hard and my springs are long. Each fall is harder than the last. This being my senior year during a pandemic, its going to be a record breaker again. My hopes after this year are to go to graduate school, so I have (yet) to study for the GRE and take the test. I am pursuing an honor&amp;rsquo;s thesis so I will be doing extracurricular research and meetings outside of class.</description>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Throughout my college career, I have found that my fall semesters are hard and my springs are long. Each fall is harder than the last. This being my senior year during a pandemic, its going to be a record breaker again. My hopes after this year are to go to graduate school, so I have (yet) to study for the GRE and take the test. I am pursuing an honor&amp;rsquo;s thesis so I will be doing extracurricular research and meetings outside of class.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Hi there My name is Radek and I&amp;rsquo;m the author of this theme. I made it to help you present your ideas easier.
+We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
+This theme is pretty basic and covers all of the essentials. All you have to do is start typing!
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Showcase</title>
+      <link>/showcase/</link>
+      <pubDate>Fri, 18 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/showcase/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Header 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante. Donec quis dolor nec nunc mollis interdum vel in purus. Sed vitae leo scelerisque, sollicitudin elit sed, congue ante. In augue nisl, vestibulum commodo est a, tristique porttitor est. Proin laoreet iaculis ornare. Nullam ut neque quam.
+          
+        
+        </description>
     </item>
     
     <item>
@@ -22,9 +82,59 @@
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
       <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Hello Friend</title>
+      <link>/post/hello/</link>
+      <pubDate>Wed, 17 Sep 1986 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hello/</guid>
+      <description>
+        
+          &lt;img src=&#34;/img/hello.jpg&#34;/&gt;
+          
+        
+        
+        
+          &#34;Hello, friend?&#34; That&#39;s lame. Maybe I should give you a name?
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/archive/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
     </item>
     
   </channel>

@@ -2,10 +2,7 @@
 title: "BlogDemo"
 output: html_document
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+# Set Working Directory to where you want your blog to be housed locally
 
 setwd("C:/Users/Spot/Documents/GitHub/s-vargas.github.io")
 
@@ -17,8 +14,13 @@ library(blogdown)
 
 new_site(theme = "hugo")
 
+
+#Edit the details in the toml file.
+
+#Then Rebuild the site
 build_site()
 
 #Then drag and drop in your github
 
 blogdown::hugo_build()
+
