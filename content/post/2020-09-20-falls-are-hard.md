@@ -1,6 +1,6 @@
 ---
 title: Falls are Hard
-author: Sonia Vargas
+author: Sonia V.
 date: '2020-09-20'
 slug: falls-are-hard
 categories: []

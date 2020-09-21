@@ -4,18 +4,15 @@ output: html_document
 ---
 # Set Working Directory to where you want your blog to be housed locally
 
-setwd("C:\\Users\\Spot\\Documents\\GitHub\\s-vargas.github.io")
+setwd("C:/Users/Spot/Documents/GitHub/s-vargas.github.io")
 
-#Install blogdown
 install.packages('blogdown')
 
-# Load it in to the current environment.
 
 library(blogdown)
 
-#I found it and liked the hello friend blog theme from the user panr
 
-new_site(theme = "panr/hugo-theme-hello-friend")
+new_site(theme = "hugo")
 
 
 #Edit the details in the toml file.
@@ -24,3 +21,6 @@ new_site(theme = "panr/hugo-theme-hello-friend")
 build_site()
 
 #Then drag and drop in your github
+
+blogdown::hugo_build()
+
