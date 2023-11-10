@@ -1,7 +1,11 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "How Incarceration Impacts Voter Participation Across Communities"
+excerpt: "An undergraduate honors thesis, University of Florida, Gainesville FL 2021 1<br/><img src='/images/GNV_map.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+**Abstract**
+============
+This research investigates how incarceration impacts political participation in specific communities in Alachua County, Florida. My research questions explore how incarceration impacts voter registration and turnout rates across communities of color, and more broadly, if the depopulation of a community due to high rates of incarceration creates a lack of civic engagement. I expect that communities with higher rates of incarcerated populations will have varied and potentially higher rates of voter registration and turnout due to personal and proximal contacts. My research leverages a cross-sectional analysis of Alachua County precincts (communities). By collecting public records on incarcerated individuals who resided in Alachua County communities prior to their convictions, and subsequent voter file data, and informing my theory of “participation deficits” through interviews with community leaders, I hope my research will provide greater insight into the barriers to participation that communities face due to the carceral state.
+
+[Read it here](http://s-vargas.github.io/files/thesis.pdf)
