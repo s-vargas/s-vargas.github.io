@@ -1,6 +1,6 @@
 ---
 title: "How Incarceration Impacts Voter Participation Across Communities"
-excerpt: "An undergraduate honors thesis, University of Florida, Gainesville FL 2021 1<br/><img src='/images/GNV_map.png'>"
+excerpt: "An undergraduate honors thesis, University of Florida, Gainesville FL - April 2021 <br/><img src='/images/GNV_map.png'>"
 collection: portfolio
 ---
 
