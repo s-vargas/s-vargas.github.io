@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : # "http://yourfullgooglescholarurl.com"
-  email            : "mailto: svargas@umd.edu"
+  email            : "svargas@umd.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/s-vargas"
+  github           : "s-vargas"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/sonia-vargas-80a505150/"
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "sonia-vargas-80a505150/"
+  orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/soniaavar"
+  twitter          : "soniaavar"
   vine             :
   weibo            :
   xing             :
