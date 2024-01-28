@@ -9,4 +9,4 @@ redirect_from:
 
 [View my CV here](http://s-vargas.github.io/files/Vargas_CV.pdf)
 
-<embed src="http://s-vargas.github.io/files/Vargas_CV.pdf" type="application/pdf" />
+<iframe src="http://s-vargas.github.io/files/Vargas_CV.pdf" width="640" height="480"></iframe>
