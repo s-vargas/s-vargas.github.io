@@ -2,6 +2,7 @@
 title: 'APSA Diversity Fellowship'
 date: 2024-04
 permalink: /posts/2023/04/APSA2023/
+collection: posts
 tags:
   - APSA
 ---
