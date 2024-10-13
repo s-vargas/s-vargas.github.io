@@ -1,7 +1,6 @@
 ---
-title: "Are the Children of Immigrants more Progressive?:
-Exploring Political Orientations among a Second-Generation Cohort"
-excerpt: "Working Paper"
+title: "Working Paper: Are the Children of Immigrants more Progressive?"
+excerpt: "Exploring Political Orientations among a Second-Generation Cohort"
 collection: portfolio
 ---
 
