@@ -5,12 +5,11 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## Instructor of Record
-======
-- GVPT 170: American Politics, Summer 2024, Fall 2024
+### Instructor of Record
 
-## Teaching Assistant
-======
+- GVPT 170: American Politics (UMD; Summer 2024, Fall 2024)
+
+### Teaching Assistant
 - GVPT170: American Government (UMD; Fall 2023, Fall 2025)
 - GVPT331: Intro to Courts, Law and Justice (UMD, Spring 2025)
 - HNUH238B: Systemic Racism in Public Opinion and Policy (UMD; Fall 2022, Spring 2023)
