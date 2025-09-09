@@ -1,3 +1,3 @@
 ---
-Location: Chicago, Illinois, USA
+Location: "Chicago, Illinois, USA"
 ---

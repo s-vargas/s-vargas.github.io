@@ -1,3 +1,3 @@
 ---
-Location: San Juan, Puerto Rico
+Location: "San Juan, Puerto Rico"
 ---

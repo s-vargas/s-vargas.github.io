@@ -1,3 +1,3 @@
 ---
-Location: College Park, Maryland, USA
+Location: "College Park, Maryland, USA"
 ---

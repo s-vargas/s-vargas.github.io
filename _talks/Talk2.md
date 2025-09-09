@@ -1,3 +1,3 @@
 ---
-Location: Washington DC, USA
+Location: "Washington DC, USA"
 ---

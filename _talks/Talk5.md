@@ -1,3 +1,3 @@
 ---
-Location: Vancouver, British Columbia, Canada
+Location: "Vancouver, British Columbia, Canada"
 ---
