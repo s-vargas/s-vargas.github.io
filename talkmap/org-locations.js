@@ -18,7 +18,7 @@ var addressPoints = [
     "Washington DC, USA",
     38.889805, 
     -77.009056
-  ]
+  ],
   [
     "College Park, Maryland, USA",
     38.989697,
