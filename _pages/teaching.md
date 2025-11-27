@@ -7,6 +7,7 @@ author_profile: true
 
 ### Instructor of Record
 
+- GVPT479I: Seminar in American Politics; U.S. Immigration and Displacement Policy (UMD; Fall 2025)
 - GVPT 170: American Politics (UMD; Summer 2024, Fall 2024)
 
 ### Teaching Assistant
