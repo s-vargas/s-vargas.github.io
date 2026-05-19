@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "Dissertation Defense"
 permalink: /defense/
 author_profile: false
 ---
