@@ -26,12 +26,11 @@ author_profile: false
 </div>
 
 ## Defense Details
+---
 I am thrilled to formally invite you to the dissertation defense of Sonia A. Vargas, who will be defending her project: "*Generations of Negotiation: Viewing U.S. Political Attitudes through the Lens of Contemporary Immigrant Generations*"
 In fulfillment of the requirements for the degree of Doctor of Philosophy in Government and Politics from the University of Maryland. Please RSVP.
 
 [ ### Abstract ]: #
-
-[*Briefly summarize your dissertation research in a paragraph here. What problem did you solve? What were your core findings?*]: #
 
 <div style="display: flex; gap: 1rem;">
   <div style="flex: 1; padding-right: 5px;">
@@ -58,7 +57,6 @@ In fulfillment of the requirements for the degree of Doctor of Philosophy in Gov
   </div>
 </div>
   
----
 
 ## Who's Going:
 
