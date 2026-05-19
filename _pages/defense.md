@@ -33,25 +33,25 @@ In fulfillment of the requirements for the degree of Doctor of Philosophy in Gov
 
 [*Briefly summarize your dissertation research in a paragraph here. What problem did you solve? What were your core findings?*]: #
 
-<div style="display: flex;">
-  <md>
+<div markdown="1" style="display: flex;">
+  <div style="flex: 1; padding-right: 10px;">
+    
     ### Committee Members
         * **Professor Janelle Wong**, Chair
         * **Professor Michael J. Hanmer**, GVPT
         * **Professor Chryl N. Laird**, GVPT
         * **Professor Antoine J. Banks**, GVPT
         * **Professor Perla M. Guerrero**, AMST
-  </md>
   </div>
   <div style="flex: 1; padding-left: 10px;">
-    <md>
+    
               ### Date:
               * July 10th, 2026
               * 12:00 PM
+              
               ### Virtual Attendance
               * For those unable to join in person, a zoom link will be provided.
               * Zoom Meeting Link: *TBD* 
-    </md>
   </div>
 </div>
   
