@@ -2,6 +2,9 @@
 layout: single
 permalink: /defense/
 classes: wide
+
+author_profile: false
+sidebar: false
 ---
 
 <div class="two-col">
