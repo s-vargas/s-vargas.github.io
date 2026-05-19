@@ -41,3 +41,24 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+.two-col {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.two-col > div {
+  flex: 1;
+}
+
+/* Stack on mobile */
+@media (max-width: 768px) {
+  .two-col {
+    flex-direction: column;
+  }
+
+  .two-col > div {
+    padding: 0 !important;
+  }
+}
