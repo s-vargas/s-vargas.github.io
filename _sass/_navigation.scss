@@ -175,7 +175,7 @@
 .greedy-nav {
   position: relative;
   min-width: 250px;
-  background: #F5FFF2;
+  background: $green-color;
 
   a {
     display: block;
@@ -336,7 +336,7 @@
     padding-right: 0.5em;
     color: #fff;
     font-weight: bold;
-    background: $primary-color;
+    background: $green-color;
     border-radius: $border-radius;
 
     &:hover {
@@ -348,8 +348,9 @@
 .nav__title {
   margin: 0;
   padding: 0.5rem 1rem;
-  font-family: $sans-serif-narrow;
+  font-family: $verdana;
   font-size: $type-size-5;
+  color: $dark-green-color;
   font-weight: bold;
 }
 
@@ -357,7 +358,7 @@
   display: block;
   margin: 0.5rem 0;
   padding: 0.5rem 0;
-  font-family: $sans-serif-narrow;
+  font-family: $verdana;
   font-size: $type-size-6;
   font-weight: bold;
   text-transform: uppercase;
