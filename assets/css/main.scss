@@ -75,3 +75,43 @@
   margin-left: auto;
   margin-right: auto;
 }
+/* MAKE A STATIC COLUMN!! */
+/* Two Column Layout: Left scrollable, Right fixed */
+.two-column-layout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+/* LEFT COLUMN: scrollable */
+.scroll-column {
+  flex: 1;
+  overflow-y: auto;
+  max-height: 100vh; /* full height scrolling */
+  padding-right: 1rem;
+}
+
+/* RIGHT COLUMN: fixed */
+.fixed-column {
+  width: 260px;    /* adjust as needed */
+  position: sticky;
+  top: 2rem;       /* stick after header */
+  height: fit-content; /* adjust for long content */
+}
+
+/* Mobile: stack into one column */
+@media (max-width: 768px) {
+  .two-column-layout {
+    flex-direction: column;
+  }
+
+  .scroll-column {
+    max-height: none;
+    overflow: visible;
+  }
+
+  .fixed-column {
+    width: 100%;
+    position: static;
+  }
+}
