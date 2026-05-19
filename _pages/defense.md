@@ -1,6 +1,7 @@
 ---
 layout: single
 permalink: /defense/
+classes: wide2
 ---
 
 <div class="two-col">
