@@ -1,7 +1,9 @@
 ---
+layout: archive
 permalink: /
 title: "About Me"
 author_profile: true
+sidebar: true
 redirect_from: 
   - /about/
   - /about.html
