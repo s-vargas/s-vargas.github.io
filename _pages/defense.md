@@ -4,14 +4,14 @@ permalink: /defense/
 author_profile: false
 ---
 
-<div style="display: flex;">
-  <div style="flex: 1; padding-right: 10px;">
+<div class="two-col">
+  <div>
     <br/><img src='/images/Dissertation_Defense_Evite.jpg'
         width="480" 
         height="640" 
        >
   </div>
-  <div style="flex: 1; padding-left: 10px;">
+  <div>
       <iframe 
         src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true" 
         width="540" 
