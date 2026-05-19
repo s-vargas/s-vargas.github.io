@@ -33,7 +33,7 @@ In fulfillment of the requirements for the degree of Doctor of Philosophy in Gov
 
 [*Briefly summarize your dissertation research in a paragraph here. What problem did you solve? What were your core findings?*]: #
 
-<div style="display: flex; gap: 2rem;">
+<div style="display: flex; gap: 1rem;">
   <div style="flex: 1; padding-right: 5px;">
     <h3>Committee Members</h3>
     <ul>
@@ -62,7 +62,7 @@ In fulfillment of the requirements for the degree of Doctor of Philosophy in Gov
 
 ## Who's Going:
 
---
+---
 
 *Please contact svargas@umd.edu if you have any questions!*
 
