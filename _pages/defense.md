@@ -5,7 +5,33 @@ permalink: /defense/
 author_profile: false
 ---
 
-<br/><img src='/images/Dissertation_Defense_Evite.jpg'>
+<div style="display: flex;">
+  <div style="flex: 1; padding-right: 10px;">
+    <h4>Column 1</h4>
+    <br/><img src='/images/Dissertation_Defense_Evite.jpg'
+       height="675"
+       width="962"
+       >
+  </div>
+  <div style="flex: 1; padding-left: 10px;">
+    <h4>Column 2</h4>
+    ## RSVP:
+      <iframe 
+        src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true" 
+        width="640" 
+        height="951" 
+        frameborder="0" 
+        marginheight="0" 
+        marginwidth="0">
+        Loading…
+      </iframe>
+  </div>
+</div>
+
+<br/><img src='/images/Dissertation_Defense_Evite.jpg'
+       height="675"
+       width="962"
+       >
 
 ## Defense Details
 I formally invite you to the dissertation defense of Sonia A. Vargas, who will be defending her project: "*Generations of Negotiation: Viewing U.S. Political Attitudes through the Lens of Contemporary Immigrant Generations*"
@@ -31,7 +57,15 @@ For those unable to join in person, a virtual viewing link will be provided.
 
 ---
 ## RSVP:
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true" width="640" height="951" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe 
+  src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true" 
+  width="640" 
+  height="951" 
+  frameborder="0" 
+  marginheight="0" 
+  marginwidth="0">
+  Loading…
+</iframe>
 ---
 
 ## Who's Going:
