@@ -3,6 +3,7 @@ layout: single
 permalink: /defense/
 author_profile: false
 sidebar: false
+classes: wide
 ---
 
 <div class="two-col">
