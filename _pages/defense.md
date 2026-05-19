@@ -43,6 +43,7 @@ For those unable to join in person, a virtual viewing link will be provided.
 <center>
   
 ## Committee Members
+
 * **Professor Janelle Wong**, Chair
 * **Professor Michael J. Hanmer**, GVPT
 * **Professor Chryl N. Laird**, GVPT
@@ -63,6 +64,4 @@ For those unable to join in person, a virtual viewing link will be provided.
 
 *Please contact svargas@umd.edu if you have any questions!*
 
-<html>
 <body style="background-color:#E1FCD9;">
-</html>
