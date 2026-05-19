@@ -1,8 +1,34 @@
 ---
 layout: archive
-title: "Dissertation Defense Announcement"
+title: "Dissertation Defense"
 permalink: /defense/
 author_profile: false
+---
+
+## Defense Details
+I am thrilled to formally invite you to the dissertation defense of Sonia A. Vargas, who will be defending her project: "*Generations of Negotiation: Viewing U.S. Political Attitudes through the Lens of Contemporary Immigrant Generations*"
+In fulfillment of the requirements for the degree of Doctor of Philosophy in Government and Politics from the University of Maryland. Please RSVP below.
+
+[ ### Abstract ]: #
+
+[*Briefly summarize your dissertation research in a paragraph here. What problem did you solve? What were your core findings?*]: #
+
+<center>
+  
+### Committee Members
+* **Professor Janelle Wong**, Chair
+* **Professor Michael J. Hanmer**, GVPT
+* **Professor Chryl N. Laird**, GVPT
+* **Professor Antoine J. Banks**, GVPT
+* **Professor Perla M. Guerrero**, AMST
+</center>
+
+### Date:
+* July 10th, 2026
+* 12:00 PM
+#### Virtual Attendance
+For those unable to join in person, a zoom link will be provided.
+* Zoom Meeting Link: *TBD*  
 ---
 
 <div style="display: flex;">
@@ -13,7 +39,6 @@ author_profile: false
        >
   </div>
   <div style="flex: 1; padding-left: 10px;">
-    <h4>RSVP:</h4>
       <iframe 
         src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true" 
         width="540" 
@@ -25,32 +50,6 @@ author_profile: false
       </iframe>
   </div>
 </div>
-
-## Defense Details
-I formally invite you to the dissertation defense of Sonia A. Vargas, who will be defending her project: "*Generations of Negotiation: Viewing U.S. Political Attitudes through the Lens of Contemporary Immigrant Generations*"
-In fulfillment of the requirements for the degree of Doctor of Philosophy in Government and Politics from the University of Maryland. 
-
-[ ### Abstract ]: #
-
-[*Briefly summarize your dissertation research in a paragraph here. What problem did you solve? What were your core findings?*]: #
-
-### Virtual Attendance
-For those unable to join in person, a virtual viewing link will be provided.
-
-**Zoom Meeting Link:** *[TBD - Coming Soon]*  
-
----
-<center>
-  
-## Committee Members
-
-* **Professor Janelle Wong**, Chair
-* **Professor Michael J. Hanmer**, GVPT
-* **Professor Chryl N. Laird**, GVPT
-* **Professor Antoine J. Banks**, GVPT
-* **Professor Perla M. Guerrero**, AMST
-
-</center>
 
 ---
 
