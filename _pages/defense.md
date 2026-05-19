@@ -1,20 +1,23 @@
 ---
-layout: archive
+layout: single
 permalink: /defense/
+classes: wide
+
 author_profile: false
+sidebar: false
 ---
 
-<div style="display: flex;">
-  <div style="flex: 1; padding-right: 10px;">
+<div class="two-col">
+  <div>
     <br/><img src='/images/Dissertation_Defense_Evite.jpg'
         width="480" 
         height="640" 
        >
   </div>
-  <div style="flex: 1; padding-left: 10px;">
+  <div>
       <iframe 
-        src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true" 
-        width="540" 
+        src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true"  
+        width="480"
         height="640" 
         frameborder="0" 
         marginheight="0" 
@@ -26,8 +29,8 @@ author_profile: false
 
 ## Defense Details
 ---
-I am thrilled to formally invite you to the dissertation defense of Sonia A. Vargas, who will be defending her project: "*Generations of Negotiation: Viewing U.S. Political Attitudes through the Lens of Contemporary Immigrant Generations*"
-In fulfillment of the requirements for the degree of Doctor of Philosophy in Government and Politics from the University of Maryland. Please RSVP.
+In July Sonia A. Vargas will be defending her dissertation project: "*Generations of Negotiation: Viewing U.S. Political Attitudes through the Lens of Contemporary Immigrant Generations*"
+In fulfillment of the requirements for the degree of Doctor of Philosophy in Government and Politics from the University of Maryland. Please RSVP for an accurate headcount and spotlight at the bottom of the page!
 
 [ ### Abstract ]: #
 
