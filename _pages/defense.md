@@ -1,4 +1,9 @@
-# Dissertation Defense Announcement
+---
+layout: archive
+title: "Dissertation Defense Announcement"
+permalink: /defense/
+author_profile: false
+---
 
 <br/><img src='/images/Dissertation_Defense_Evite.jpg'>
 
