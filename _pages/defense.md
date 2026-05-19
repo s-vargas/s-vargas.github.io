@@ -1,8 +1,6 @@
 ---
 layout: single
 permalink: /defense/
-classes: wide
-
 author_profile: false
 sidebar: false
 ---
@@ -17,7 +15,7 @@ sidebar: false
   <div>
       <iframe 
         src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true"  
-        width="480"
+        width="400"
         height="640" 
         frameborder="0" 
         marginheight="0" 
