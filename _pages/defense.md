@@ -9,17 +9,14 @@ author_profile: false
   <div style="flex: 1; padding-right: 10px;">
     <h4>Column 1</h4>
     <br/><img src='/images/Dissertation_Defense_Evite.jpg'
-       height="675"
-       width="962"
        >
   </div>
   <div style="flex: 1; padding-left: 10px;">
-    <h4>Column 2</h4>
-    ## RSVP:
+    <h4>RSVP:</h4>
       <iframe 
         src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true" 
         width="640" 
-        height="951" 
+        height="640" 
         frameborder="0" 
         marginheight="0" 
         marginwidth="0">
@@ -27,11 +24,6 @@ author_profile: false
       </iframe>
   </div>
 </div>
-
-<br/><img src='/images/Dissertation_Defense_Evite.jpg'
-       height="675"
-       width="962"
-       >
 
 ## Defense Details
 I formally invite you to the dissertation defense of Sonia A. Vargas, who will be defending her project: "*Generations of Negotiation: Viewing U.S. Political Attitudes through the Lens of Contemporary Immigrant Generations*"
@@ -55,17 +47,6 @@ For those unable to join in person, a virtual viewing link will be provided.
 * **Professor Antoine J. Banks**, GVPT
 * **Professor Perla M. Guerrero**, AMST
 
----
-## RSVP:
-<iframe 
-  src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true" 
-  width="640" 
-  height="951" 
-  frameborder="0" 
-  marginheight="0" 
-  marginwidth="0">
-  Loading…
-</iframe>
 ---
 
 ## Who's Going:
