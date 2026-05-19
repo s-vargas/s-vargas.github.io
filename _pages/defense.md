@@ -13,7 +13,11 @@ author_profile: false
   </div>
   <div>
       <iframe 
-        src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true" >
+        src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true"  
+        height="640" 
+        frameborder="0" 
+        marginheight="0" 
+        marginwidth="0">
         Loading…
       </iframe>
   </div>
