@@ -1,0 +1,38 @@
+# Dissertation Defense Announcement
+
+<br/><img src='/images/Dissertation_Defense_Evite.jpg'>
+
+## Defense Details
+I formally invite you to the dissertation defense of Sonia A. Vargas, who will be defending her project: "*Generations of Negotiation: Viewing U.S. Political Attitudes through the Lens of Contemporary Immigrant Generations*"
+In fulfillment of the requirements for the degree of Doctor of Philosophy in Government and Politics from the University of Maryland. 
+
+### Abstract
+*Briefly summarize your dissertation research in a paragraph here. What problem did you solve? What were your core findings?*
+
+
+### Virtual Attendance
+For those unable to join in person, a virtual viewing link will be provided.
+
+**Zoom Meeting Link:** *[TBD - Coming Soon]*  
+
+---
+
+## Committee Members
+* **Professor Janelle Wong**, Chair
+* **Professor Michael J. Hanmer**, GVPT
+* **Professor Chryl N. Laird**, GVPT
+* **Professor Antoine J. Banks**, GVPT
+* **Professor Perla M. Guerrero**, AMST
+
+---
+RSVP:
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true" width="640" height="951" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+---
+<h2>Who's Going</h2>
+<ul class="guest-list">
+  {% for guest in site.data.guests %}
+    <li>{{ guest.name }}</li>
+  {% endfor %}
+</ul>
+
+*Please contact [svargas@umd.edu] if you have any questions!*
