@@ -105,13 +105,15 @@
     flex-direction: column;
   }
 
-  .scroll-column {
-    max-height: none;
-    overflow: visible;
-  }
+/* Left column scrolls normally */
+.scroll-column {
+  flex: 1;
+}
 
-  .fixed-column {
-    width: 100%;
-    position: static;
-  }
+/* Right column stays fixed on the screen */
+.fixed-column {
+  position: sticky;
+  top: 1rem;     /* how far from the top before sticking */
+  height: fit-content;
+}
 }
