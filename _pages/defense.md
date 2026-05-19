@@ -31,8 +31,9 @@ In fulfillment of the requirements for the degree of Doctor of Philosophy in Gov
 
 [ ### Abstract ]: #
 
-<div style="display: flex; gap: 1rem;">
-  <div style="flex: 1; padding-right: 5px;">
+<div class="two-col">
+
+  <div>
     <h3>Committee Members</h3>
     <ul>
       <li><strong>Professor Janelle Wong</strong>, Chair</li>
@@ -42,7 +43,7 @@ In fulfillment of the requirements for the degree of Doctor of Philosophy in Gov
       <li><strong>Professor Perla M. Guerrero</strong>, AMST</li>
     </ul>
   </div>
-  <div style="flex: 1; padding-left: 5px;">
+  <div>
     <h3>Date</h3>
     <ul>
       <li>July 10th, 2026</li>
