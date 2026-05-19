@@ -14,9 +14,16 @@ layout: default
 
 <div id="main" role="main">
 
-  <div class="archive">
+  <div class="page__inner-wrap">
+
+    {% unless page.classes contains "wide" or page.sidebar == false %}
+      {% include sidebar.html %}
+    {% endunless %}
+
+    <section class="page__content">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
     {{ content }}
   </div>
+</div>
