@@ -83,7 +83,7 @@
       line-height: 1.5;
       text-align: center;
       text-decoration: none;
-      color: mix(#fff, $gray, 25%);
+      color: mix(#F5FFF2, $gray, 25%);
       border: 1px solid $light-gray;
       border-radius: 0;
 
@@ -92,7 +92,7 @@
       }
 
       &.current {
-        color: #5FDC9F;
+        color: #F5FFF2;
         background: $primary-color;
       }
 
