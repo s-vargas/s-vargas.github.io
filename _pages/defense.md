@@ -30,9 +30,9 @@ author_profile: false
 I formally invite you to the dissertation defense of Sonia A. Vargas, who will be defending her project: "*Generations of Negotiation: Viewing U.S. Political Attitudes through the Lens of Contemporary Immigrant Generations*"
 In fulfillment of the requirements for the degree of Doctor of Philosophy in Government and Politics from the University of Maryland. 
 
-### Abstract
-*Briefly summarize your dissertation research in a paragraph here. What problem did you solve? What were your core findings?*
+[ ### Abstract ]: #
 
+[*Briefly summarize your dissertation research in a paragraph here. What problem did you solve? What were your core findings?*]: #
 
 ### Virtual Attendance
 For those unable to join in person, a virtual viewing link will be provided.
@@ -40,13 +40,16 @@ For those unable to join in person, a virtual viewing link will be provided.
 **Zoom Meeting Link:** *[TBD - Coming Soon]*  
 
 ---
-
+<center>
+  
 ## Committee Members
 * **Professor Janelle Wong**, Chair
 * **Professor Michael J. Hanmer**, GVPT
 * **Professor Chryl N. Laird**, GVPT
 * **Professor Antoine J. Banks**, GVPT
 * **Professor Perla M. Guerrero**, AMST
+
+</center>
 
 ---
 
@@ -58,4 +61,8 @@ For those unable to join in person, a virtual viewing link will be provided.
 </ul>
 --
 
-*Please contact [svargas@umd.edu] if you have any questions!*
+*Please contact svargas@umd.edu if you have any questions!*
+
+<html>
+<body style="background-color:#E1FCD9;">
+</html>
