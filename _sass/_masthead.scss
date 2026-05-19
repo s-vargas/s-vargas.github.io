@@ -51,3 +51,20 @@
     font-weight: 700;
   }
 }
+
+/* ============================
+   FIX MASTHEAD COLOR + WIDTH
+   ============================ */
+
+/* Make masthead full-width and use your green color */
+.masthead {
+  background-color: $green-color !important;
+}
+
+/* Remove padding that prevents the bar from touching the top */
+.masthead__inner-wrap {
+  background-color: $green-color !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  width: 100% !important;
+}
