@@ -1,7 +1,6 @@
 ---
-layout: archive
+layout: single
 permalink: /defense/
-author_profile: false
 ---
 
 <div class="two-col">
