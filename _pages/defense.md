@@ -9,16 +9,16 @@ classes: narrow
 <div class="two-column-layout">
   <div class="scroll-column">
     
-    <h2>Defending My Shell</h2>
+    <h1>Defending My Shell</h1>
 
-    <p>🎓 Hosted by: Sonia A. Vargas</p>
-
-    <section>
+      <section>
       <ul>
-        <li>July 10th, 2026</li>
-        <li>12:00 PM</li>
+        <h2><li>July 10th, 2026</li></h2>
+        <h3><li>12:00 PM</li></h3>
       </ul>
     </section>
+
+    <p>🎓 Hosted by: <img src="/images/profile.png" alt="headshot of Sonia" width="100" height="100"> Sonia</p>
 
     <p>
       I will be defending my dissertation project:
@@ -37,16 +37,17 @@ classes: narrow
     </section>
 
     <section>
+    <h3>RSVP</h3>
       <iframe 
         src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true"
         width="400"
-        height="640"
+        height="400"
         frameborder="0"
         marginheight="0"
         marginwidth="0">
       </iframe>
 
-      <h3> **Who is going:** </h3>
+      <h3> Guest List </h3>
       <ul></ul>
     </section>
 
@@ -55,8 +56,8 @@ classes: narrow
   <aside class="fixed-column">
     <img 
       src="/images/Dissertation_Defense_Evite.jpg"
-      width="480"
-      height="640"
+      width="700"
+      height="1000"
       alt="Dissertation Defense Evite"
     >
   </aside>
