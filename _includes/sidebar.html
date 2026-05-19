@@ -1,9 +1,16 @@
 {% include base_path %}
 
-{% if page.author_profile or layout.author_profile or page.sidebar %}
+<!-- Only render sidebar if explicitly enabled. 
+Priority:
+1. page.sidebar (must exist and not be false)
+2. page.author_profile OR layout.author_profile -->
+
+{% if page.sidebar != false and (page.author_profile or layout.author_profile or page.sidebar) %}
   <div class="sidebar sticky">
-  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
-  {% if page.sidebar %}
+    {% if page.author_profile or layout.author_profile %}
+      {% include author-profile.html %}
+    {% endif %}
+    {%- if page.sidebar and page.sidebar != false -%}
     {% for s in page.sidebar %}
       {% if s.image %}
         <img src=
