@@ -7,16 +7,17 @@ author_profile: false
 
 <div style="display: flex;">
   <div style="flex: 1; padding-right: 10px;">
-    <h4>Column 1</h4>
     <br/><img src='/images/Dissertation_Defense_Evite.jpg'
+        width="480" 
+        height="640" 
        >
   </div>
   <div style="flex: 1; padding-left: 10px;">
     <h4>RSVP:</h4>
       <iframe 
         src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true" 
-        width="640" 
-        height="640" 
+        width="540" 
+        height="540" 
         frameborder="0" 
         marginheight="0" 
         marginwidth="0">
