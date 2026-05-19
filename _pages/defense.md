@@ -64,4 +64,4 @@ For those unable to join in person, a virtual viewing link will be provided.
 
 *Please contact svargas@umd.edu if you have any questions!*
 
-<body style="background-color:#E1FCD9;">
+<body style="background-color:#F5FFF2;">
