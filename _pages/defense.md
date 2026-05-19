@@ -33,7 +33,7 @@ In fulfillment of the requirements for the degree of Doctor of Philosophy in Gov
 
 [*Briefly summarize your dissertation research in a paragraph here. What problem did you solve? What were your core findings?*]: #
 
-<div markdown="1" style="display: flex;">
+<span style="display: flex;">
   <div style="flex: 1; padding-right: 10px;">
     
     ### Committee Members
@@ -44,7 +44,6 @@ In fulfillment of the requirements for the degree of Doctor of Philosophy in Gov
         * **Professor Perla M. Guerrero**, AMST
   </div>
   <div style="flex: 1; padding-left: 10px;">
-    
               ### Date:
               * July 10th, 2026
               * 12:00 PM
@@ -53,7 +52,7 @@ In fulfillment of the requirements for the degree of Doctor of Philosophy in Gov
               * For those unable to join in person, a zoom link will be provided.
               * Zoom Meeting Link: *TBD* 
   </div>
-</div>
+</span>
   
 ---
 
