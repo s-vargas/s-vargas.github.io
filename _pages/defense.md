@@ -25,14 +25,16 @@ For those unable to join in person, a virtual viewing link will be provided.
 * **Professor Perla M. Guerrero**, AMST
 
 ---
-RSVP:
+## RSVP:
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true" width="640" height="951" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 ---
-<h2>Who's Going</h2>
+
+## Who's Going:
 <ul class="guest-list">
   {% for guest in site.data.guests %}
     <li>{{ guest.name }}</li>
   {% endfor %}
 </ul>
+--
 
 *Please contact [svargas@umd.edu] if you have any questions!*
