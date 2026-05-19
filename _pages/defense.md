@@ -34,7 +34,7 @@ In fulfillment of the requirements for the degree of Doctor of Philosophy in Gov
 [*Briefly summarize your dissertation research in a paragraph here. What problem did you solve? What were your core findings?*]: #
 
 <div style="display: flex; gap: 2rem;">
-  <div style="flex: 1; padding-right: 10px;">
+  <div style="flex: 1; padding-right: 5px;">
     <h3>Committee Members</h3>
     <ul>
       <li><strong>Professor Janelle Wong</strong>, Chair</li>
@@ -44,7 +44,7 @@ In fulfillment of the requirements for the degree of Doctor of Philosophy in Gov
       <li><strong>Professor Perla M. Guerrero</strong>, AMST</li>
     </ul>
   </div>
-  <div style="flex: 1; padding-left: 10px;">
+  <div style="flex: 1; padding-left: 5px;">
     <h3>Date</h3>
     <ul>
       <li>July 10th, 2026</li>
