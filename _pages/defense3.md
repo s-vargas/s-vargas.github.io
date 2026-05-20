@@ -77,6 +77,14 @@ sidebar: false
     .two-column-layout { flex-direction: column; }
     .fixed-column { order: -1; position: static; width: 100%; }
   }
+  /* Mobile: tile the GIF at natural size instead of stretching */
+@media (max-width: 768px) {
+  body {
+    background-size: auto !important;
+    background-repeat: repeat !important;
+    background-attachment: scroll !important;
+  }
+}
 </style>
 
 <div class="defense-card">
