@@ -4,6 +4,7 @@ permalink: /
 title: "About Me"
 author_profile: true
 sidebar: true
+classes: gif-bg
 redirect_from: 
   - /about/
   - /about.html
