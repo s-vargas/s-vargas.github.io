@@ -8,7 +8,7 @@ classes: narrow
 
 <div class="two-column-layout">
   <div class="scroll-column">
-    
+    <blockquote> <img class = "avatar" src="/images/tinyavatar.jpg" alt="picture of Sonia"> Sonia invited you! 💌 </blockquote>
     <h1>Defending My Shell</h1>
 
       <section>
@@ -39,7 +39,7 @@ classes: narrow
       <iframe 
         src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true"
         width="400"
-        height="900"
+        height="950"
         frameborder="0"
         marginheight="0"
         marginwidth="0">
