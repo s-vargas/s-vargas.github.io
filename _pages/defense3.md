@@ -34,11 +34,11 @@ sidebar: false
 /* I removed the frosted background so that the grass can be visible on mobile! makes it more fun and it is already pretty readable without the frost */
   /* ── Give your card a frosted/white background so text is readable ── */
  .defense-card {
-    /* ──background: rgba(255, 255, 255, 0);  transparency last number  ── */
+    /* ──background: rgba(255, 255, 255, 0);  transparency last number
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
     border-radius: 16px;
-    padding: 2rem; 
+    padding: 2rem;   ── */
   }
 
   /* ── Two column layout ── */
@@ -74,29 +74,47 @@ sidebar: false
 
   /* ── Mobile ── */
   /* Remove background from body on mobile — use the pseudo-element instead */
+/* Desktop: GIF covers full body */
+body {
+  background-image: url('/images/grassgif.gif') !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-attachment: fixed !important;
+}
+
+/* Mobile: strip background off body, use a fixed div instead */
+/* (background-attachment: fixed is broken on iOS Safari) */
 @media (max-width: 768px) {
   body {
     background-image: none !important;
   }
 }
-/* Fixed background layer that actually works on iOS */
+  /* Fixed background div — works on iOS where CSS fixed backgrounds don't */
 #bg-fixed {
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  background-image: url('/images/grassgif.gif');
-  background-size: auto;
-  background-repeat: repeat;
-  background-position: bottom center;
+  display: none; /* hidden on desktop, body handles it */
+}
+
+@media (max-width: 768px) {
+  #bg-fixed {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background-image: url('/images/grassgif.gif');
+    background-size: cover;        /* fills the phone screen fully, no repeat */
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
 }
 </style>
 
 <div id="bg-fixed"></div>
 
-<!-- <div class="defense-card"> -->
+ <div class="defense-card"> 
   <div class="two-column-layout">
     <div class="scroll-column">
-      <div class="defense-card"><img class="avatar" src="/images/tinyavatar.jpg" alt="picture of Sonia"/> Sonia invited you! 💌</div>
+      <blockquote><img class="avatar" src="/images/tinyavatar.jpg" alt="picture of Sonia"> Sonia invited you! 💌</blockquote>
       <h1>⚔️🐢Defending My Shell🐢⚔️</h1>
       <section>
         <h2>Friday, July 10</h2>
@@ -194,4 +212,4 @@ sidebar: false
 </div>
     </aside>
   </div>
-<!--</div> -->
+</div>
