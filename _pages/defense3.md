@@ -9,6 +9,7 @@ sidebar: false
   
   /* ── Full-page background (desktop) ── */
   body {
+    background-image:linear-gradient(180deg, rgb(180,201,97) 0%, rgb(218,205,112) 100%); /* bottom color to top color gradient (180deg) */
     background-image: url('/images/grass_gif_partiful.gif') !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
@@ -16,7 +17,6 @@ sidebar: false
     background-attachment: fixed !important;
     role: "backdrop"; 
     /* background-color: rgb(218,205,112); */
-    linear-gradient(180deg, rgb(180,201,97) 0%, rgb(218,205,112) 100%); /* bottom color to top color gradient (180deg) */
   }
 /* masthead transparency so that the background stretches all the way */
   .masthead, .page__footer {
@@ -112,7 +112,7 @@ sidebar: false
   blockquote {
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
-    border-radius:15%;
+    border-radius:15px;
     padding: 2rem;
     border-color: #eaf0f0;
     border-width: 1px 1px 1px 1px;
