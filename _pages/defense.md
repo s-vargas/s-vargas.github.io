@@ -18,7 +18,7 @@ classes: narrow
       </ul>
     </section>
 
-    <p>🎓 Hosted by: <img src="/images/profile.png" alt="headshot of Sonia" width="100" height="100"> Sonia</p>
+    <p>🎓 Hosted by: <img class = "avatar" src="/images/tinyavatar.jpg" alt="picture of Sonia"> Sonia</p>
 
     <p>
       I will be defending my dissertation project:
@@ -41,7 +41,7 @@ classes: narrow
       <iframe 
         src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true"
         width="400"
-        height="400"
+        height="700"
         frameborder="0"
         marginheight="0"
         marginwidth="0">
