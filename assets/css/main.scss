@@ -42,86 +42,11 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-/* ─── Two-col utility (for tables etc.) ─────────────────────── */
-.two-col {
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
 
-  > div { flex: 1; }
-
-  @media (max-width: 420px) {
-    flex-direction: column;
-    > div { padding: 0 !important; }
-  }
-}
 
 /* ─── Page width cap ─────────────────────────────────────────── */
 .page__content {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-}
-
-/* ─── Two-column layout (defense page) ──────────────────────── */
-.two-column-layout {
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-}
-
-.scroll-column {
-  flex: 1;
-}
-
-.fixed-column {
-  width: 300px;
-  position: sticky;
-  top: 1rem;
-  height: fit-content;
-}
-
-@media (max-width: 768px) {
-  .two-column-layout {
-    flex-direction: column;
-  }
-
-  /* Left column (scroll-column) comes first — no order needed, it's already first in HTML */
-  .scroll-column {
-    order: 1;
-    width: 100%;
-  }
-
-  /* Right column (image/evite) stacks below */
-  .fixed-column {
-    order: 2;
-    position: static;
-    width: 100%;
-  }
-}
-
-/* ─── Tiny avatar ────────────────────────────────────────────── */
-.avatar {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  vertical-align: middle;
-}
-
-/* ─── Blockquote ─────────────────────────────────────────────── */
-blockquote {
- /* background: rgba(255, 255, 255, 0.0); */
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  border-radius: 8px;
-  padding: 2rem;
-}
-
-/* ─── Legacy gif-bg class (unused but kept just in case) ─────── */
-.gif-bg {
-  background-image: url('/images/oceangif.gif');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
 }
