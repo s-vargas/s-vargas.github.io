@@ -42,49 +42,38 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-/* make a flexible mobile page that makes tables stack instead */
+/* ─── Two-col utility (for tables etc.) ─────────────────────── */
 .two-col {
   display: flex;
   gap: 2rem;
   align-items: flex-start;
-}
 
-.two-col > div {
-  flex: 1;
-}
+  > div { flex: 1; }
 
-/* Stack on mobile */
-@media (max-width: 420px) {
-  .two-col {
+  @media (max-width: 420px) {
     flex-direction: column;
-  }
-
-  .two-col > div {
-    padding: 0 !important;
+    > div { padding: 0 !important; }
   }
 }
 
-/* control how wide the wide page is*/
-
+/* ─── Page width cap ─────────────────────────────────────────── */
 .page__content {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
-/* MAKE A STATIC COLUMN!! */
-/* Two Column Layout: Left scrollable, Right fixed */
+
+/* ─── Two-column layout (defense page) ──────────────────────── */
 .two-column-layout {
   display: flex;
   gap: 2rem;
   align-items: flex-start;
 }
 
-/* LEFT: normal page flow */
 .scroll-column {
   flex: 1;
 }
 
-/* RIGHT: stays visible while page scrolls */
 .fixed-column {
   width: 300px;
   position: sticky;
@@ -92,52 +81,43 @@
   height: fit-content;
 }
 
-/* Mobile: stack into one column */
 @media (max-width: 768px) {
   .two-column-layout {
     flex-direction: column;
   }
 
-/* Left column scrolls normally */
-.scroll-column {
-  flex: 1;
-}
-
-/* Right column stays fixed on the screen */
-.fixed-column {
-  position: sticky;
-  top: 1rem;     /* how far from the top before sticking */
-  height: fit-content;
-}
-}
-/* --- Mobile layout --- */
-@media (max-width: 768px) {
-  .two-column-layout {
-    flex-direction: column;
+  /* Left column (scroll-column) comes first — no order needed, it's already first in HTML */
+  .scroll-column {
+    order: 1;
+    width: 100%;
   }
 
-  /* Bring the RIGHT column to the TOP */
+  /* Right column (image/evite) stacks below */
   .fixed-column {
-    order: -1;        /* moves it above the scroll column */
-    position: static; /* disable sticky behavior on small screens */
+    order: 2;
+    position: static;
     width: 100%;
   }
 }
-/* --- Tiny avatar --- */
+
+/* ─── Tiny avatar ────────────────────────────────────────────── */
 .avatar {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-}
-/* --- block quote --- */
-blockquote {
-  padding: 0.75rem 1rem;
-  border-radius: 8px;
-  background: #FAF2F2;
-  border-left: 3px solid #FFDEED;
-  margin: 1rem 0;
+  vertical-align: middle;
 }
 
+/* ─── Blockquote ─────────────────────────────────────────────── */
+blockquote {
+ /* background: rgba(255, 255, 255, 0.0); */
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+/* ─── Legacy gif-bg class (unused but kept just in case) ─────── */
 .gif-bg {
   background-image: url('/images/oceangif.gif');
   background-size: cover;
@@ -145,5 +125,3 @@ blockquote {
   background-position: center;
   background-attachment: fixed;
 }
-
-
