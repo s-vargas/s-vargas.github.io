@@ -101,8 +101,8 @@ sidebar: false
           <li>For those unable to join in person, a Zoom link will be provided.</li>
           <li>Zoom Meeting Link: <em>TBD</em></li>
         </ul>
-          *Please contact svargas@umd.edu if you have any questions!*
       </section>
+      <em>Please contact svargas@umd.edu if you have any questions!</em>
         
 
         
@@ -174,8 +174,7 @@ sidebar: false
     </iframe>
   </div>
 </div>
-    </aside>
-  </div>
+  </aside>
 </div>
 
 
