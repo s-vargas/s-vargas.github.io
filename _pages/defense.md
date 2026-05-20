@@ -65,4 +65,5 @@ classes: narrow
 
 *Please contact svargas@umd.edu if you have any questions!*
 
-<body style="background-color:#F5FFF2;">
+<body style="background-color:#ADE3AA;">
+/* F5FFF2 */
