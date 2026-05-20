@@ -77,16 +77,21 @@ sidebar: false
   flex-wrap: wrap;
 }
 
-/* Top section spans full width on desktop, sits left */
-.top-section {
-  width: 100%;
-}
+
 
 /* On desktop: scroll-column and fixed-column sit side by side below */
 .scroll-column {
   flex: 1;
   min-width: 0;
 }
+/* Top section is sticky right pt 1 */
+.top-section {
+  width: 350px;
+  position: sticky;
+  top: 1rem;
+  height: fit-content;
+} 
+/* fixed col is sticky right pt 2 */
 .fixed-column {
   width: 350px;
   position: sticky;
