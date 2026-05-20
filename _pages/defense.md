@@ -49,7 +49,7 @@ sidebar: false
   }
   .scroll-column { flex: 1; }
   .fixed-column {
-    width: 300px;
+    width: 350px;
     position: sticky;
     top: 1rem;
     height: fit-content;
