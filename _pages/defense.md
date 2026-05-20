@@ -101,14 +101,13 @@ sidebar: false
           <li>For those unable to join in person, a Zoom link will be provided.</li>
           <li>Zoom Meeting Link: <em>TBD</em></li>
         </ul>
-      </section>
-      <em>Please contact svargas@umd.edu if you have any questions!</em>
-        
+      </section>        
 
-        
+      <section>
         <h3>Guest List</h3>
         <ul></ul>
       </section>
+      <em>Please contact svargas@umd.edu if you have any questions!</em>
     </div>
     <aside class="fixed-column">
       <img src="/images/Dissertation_Defense_Evite.jpg" width="auto" height="auto" alt="Dissertation Defense Evite">
@@ -127,7 +126,7 @@ sidebar: false
           ">
     👍
   </button>
-
+</section>
 <!-- RSVP Modal, the pop up, the background, and being able to click out -->
 <div id="rsvp-modal" onclick="if(event.target===this)this.style.display='none'" style=" 
   display: none;
@@ -174,7 +173,8 @@ sidebar: false
     </iframe>
   </div>
 </div>
-  </aside>
+    </aside>
+  </div>
 </div>
 
 
