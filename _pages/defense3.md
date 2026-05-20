@@ -34,7 +34,7 @@ sidebar: false
 
   /* ── Give your card a frosted/white background so text is readable ── */
   .defense-card {
-    background: rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0); /* transparency last number */
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
     border-radius: 16px;
