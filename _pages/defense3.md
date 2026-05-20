@@ -6,7 +6,7 @@ sidebar: false
 ---
 
 <style>
-  /* ── Make the GIF cover the ENTIRE page background ── */
+  /* ── Full-page background (desktop) ── */
   body {
     background-image: url('/images/grass_gif_partiful.gif') !important;
     background-size: cover !important;
@@ -15,46 +15,72 @@ sidebar: false
     background-attachment: fixed !important;
   }
 
-  /* ── Remove the white box that Minimal Mistakes puts around page content ── */
-  .page {
+  /* ── Mobile: use fixed div instead (iOS Safari fix) ── */
+  @media (max-width: 768px) {
+    body {
+      background-image: none !important;
+    }
+  }
+
+  /* ── Fixed background div for mobile ── */
+  #bg-fixed {
+    display: none;
+  }
+  @media (max-width: 768px) {
+    #bg-fixed {
+      display: block;
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      background-image: url('/images/grass_gif_partiful.gif');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
+
+  /* ── Strip Minimal Mistakes white backgrounds ── */
+  .page, #main, .page__content {
     background: transparent !important;
   }
 
-  #main {
-    background: transparent !important;
-  }
-
-  /* ── Let the content stretch wider and remove the width cap ── */
   .page__content {
     max-width: 900px !important;
     margin-left: auto !important;
     margin-right: auto !important;
-    background: transparent !important;
-  }
-/* I removed the frosted background so that the grass can be visible on mobile! makes it more fun and it is already pretty readable without the frost */
-  /* ── Give your card a frosted/white background so text is readable ── */
- .defense-card {
-    /* ──background: rgba(255, 255, 255, 0);  transparency last number
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    border-radius: 16px;
-    padding: 2rem;   ── */
   }
 
-  /* ── Two column layout ── */
-  .two-column-layout {
-    display: flex;
-    gap: 2rem;
-    align-items: flex-start;
-  }
-  .scroll-column { flex: 1; }
-  .fixed-column {
-    width: 350px;
-    position: sticky;
-    top: 1rem;
-    height: fit-content;
-  }
+ /* ── Two-column layout ── */
+.two-column-layout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
 
+/* Top section spans full width on desktop, sits left */
+.top-section {
+  width: 100%;
+}
+
+/* On desktop: scroll-column and fixed-column sit side by side below */
+.scroll-column {
+  flex: 1;
+  min-width: 0;
+}
+.fixed-column {
+  width: 350px;
+  position: sticky;
+  top: 1rem;
+  height: fit-content;
+}
+
+/* ── Mobile: stack in order top → image → content ── */
+@media (max-width: 768px) {
+  .top-section  { order: 1; width: 100%; }
+  .fixed-column { order: 2; position: static; width: 100%; }
+  .scroll-column { order: 3; width: 100%; }
+}
   /* ── Tiny avatar ── */
   .avatar {
     width: 30px;
@@ -65,49 +91,13 @@ sidebar: false
 
   /* ── Blockquote ── */
   blockquote {
-    padding: 0.75rem 1rem;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
     border-radius: 8px;
-    background: #FAF2F2;
-    border-left: 3px solid #FFDEED;
-    margin: 1rem 0;
+    padding: 2rem;
   }
-
-  /* ── Mobile ── */
-  /* Remove background from body on mobile — use the pseudo-element instead */
-/* Desktop: GIF covers full body */
-body {
-  background-image: url('/images/grassgif.gif') !important;
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
-  background-position: center center !important;
-  background-attachment: fixed !important;
-}
-
-/* Mobile: strip background off body, use a fixed div instead */
-/* (background-attachment: fixed is broken on iOS Safari) */
-@media (max-width: 768px) {
-  body {
-    background-image: none !important;
-  }
-}
-  /* Fixed background div — works on iOS where CSS fixed backgrounds don't */
-#bg-fixed {
-  display: none; /* hidden on desktop, body handles it */
-}
-
-@media (max-width: 768px) {
-  #bg-fixed {
-    display: block;
-    position: fixed;
-    inset: 0;
-    z-index: -1;
-    background-image: url('/images/grassgif.gif');
-    background-size: cover;        /* fills the phone screen fully, no repeat */
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
-}
 </style>
+
 
 <div id="bg-fixed"></div>
 
@@ -131,85 +121,61 @@ body {
         <h3>Virtual Attendance</h3>
         <ul>
           <li>For those unable to join in person, a Zoom link will be provided.</li>
-          <li>Zoom Meeting Link: <em>TBD</em></li>
-        </ul>
-      </section>
-        
+          <li>Zoom<div class="two-column-layout">
 
-      <section>  
-        <h3>Guest List</h3>
-        <ul></ul>
-      </section>
-      <em>Please contact svargas@umd.edu if you have any questions!</em>
-      <p>
-      <a href= "https://nyc-noise.com/drone-party/">x</a>
-      </p>
-    </div>
-    <aside class="fixed-column">
-      <img src="/images/Dissertation_Defense_Evite.jpg" width="auto" height="auto" alt="Dissertation Defense Evite">
-  <section style="text-align: center;">
-  <h3>RSVP</h3> <!-- RSVP Button! -->
-  <button onclick="document.getElementById('rsvp-modal').style.display='flex'" 
-          style="
-            background: #FAF2F2;
-            border: none;
-            border-radius: 20px;
-            padding: 0.6rem 1.4rem;
-            font-size: 1rem;
-            cursor: pointer;
-            font-family: inherit;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-          ">
-    👍
-  </button>
-</section>
+  <!-- TOP: blockquote + title, always first -->
+  <div class="top-section">
+    <blockquote><img class="avatar" src="/images/tinyavatar.jpg" alt="picture of Sonia"> Sonia invited you! 💌</blockquote>
+    <h1>⚔️🐢Defending My Shell🐢⚔️</h1>
+  </div>
 
-<!-- RSVP Modal, the pop up, the background, and being able to click out -->
-<div id="rsvp-modal" onclick="if(event.target===this)this.style.display='none'" style=" 
-  display: none;
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.5);
-  backdrop-filter: blur(4px);
-  z-index: 9999;
-  justify-content: center;
-  align-items: center;
-">
-  <div style="
-    background: white;
-    border-radius: 16px;
-    padding: 1.5rem;
-    max-width: 480px;
-    width: 90%;
-    max-height: 90vh;
-    overflow-y: auto;
-    position: relative;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
-  ">
-    <button onclick="document.getElementById('rsvp-modal').style.display='none'" style="
-      position: absolute;
-      top: 0.75rem;
-      right: 0.75rem;
-      background: #FAF2F2;
-      border: none;
-      border-radius: 50%;
-      width: 28px;
-      height: 28px;
-      font-size: 1rem;
-      cursor: pointer;
-      line-height: 1;
-    ">✕</button>
-    <h3 style="margin-top:0;">👍 RSVP</h3>
-    <iframe
-      src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true"
-      width="100%"
-      height="700"
-      frameborder="0"
-      marginheight="0"
-      marginwidth="0">
-    </iframe>
+  <!-- MIDDLE on mobile: evite image + RSVP button -->
+  <aside class="fixed-column">
+    <img src="/images/Dissertation_Defense_Evite.jpg" width="auto" height="auto" alt="Dissertation Defense Evite">
+    <section style="text-align: center;">
+      <h3>RSVP</h3>
+      <button onclick="document.getElementById('rsvp-modal').style.display='flex'"
+              style="
+                background: #FAF2F2;
+                border: none;
+                border-radius: 20px;
+                padding: 0.6rem 1.4rem;
+                font-size: 1rem;
+                cursor: pointer;
+                font-family: inherit;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+              ">
+        👍
+      </button>
+    </section>
+  </aside>
+
+  <!-- BOTTOM: rest of the content -->
+  <div class="scroll-column">
+    <section>
+      <h2>Friday, July 10</h2>
+      <p>12:00 PM EDT</p>
+    </section>
+    <p>🎓 Hosted by: <img class="avatar" src="/images/tinyavatar.jpg" alt="picture of Sonia"> Sonia</p>
+    <p>
+      I will be defending my dissertation project:
+      <em>"Generations of Negotiation: Viewing U.S. Political Attitudes through the Lens of Contemporary Immigrant Generations"</em>
+      in fulfillment of the requirements for the degree of Doctor of Philosophy in Government and Politics from the
+      University of Maryland. Please RSVP for an accurate headcount and a spotlight at the bottom of the page!
+    </p>
+    <section>
+      <h3>Virtual Attendance</h3>
+      <ul>
+        <li>For those unable to join in person, a Zoom link will be provided.</li>
+        <li>Zoom Meeting Link: <em>TBD</em></li>
+      </ul>
+    </section>
+    <section>
+      <h3>Guest List</h3>
+      <ul></ul>
+    </section>
+    <em>Please contact svargas@umd.edu if you have any questions!</em>
+    <p><a href="https://nyc-noise.com/drone-party/">x</a></p>
   </div>
-</div>
-    </aside>
-  </div>
+
 </div>
