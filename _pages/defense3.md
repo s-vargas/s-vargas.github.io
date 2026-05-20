@@ -31,14 +31,14 @@ sidebar: false
     margin-right: auto !important;
     background: transparent !important;
   }
-
+/* I removed the frosted background so that the grass can be visible on mobile! makes it more fun and it is already pretty readable without the frost */
   /* ── Give your card a frosted/white background so text is readable ── */
-  .defense-card {
-    background: rgba(255, 255, 255, 0); /* transparency last number */
+/*  .defense-card {
+    background: rgba(255, 255, 255, 0);  transparency last number 
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
     border-radius: 16px;
-    padding: 2rem;
+    padding: 2rem; */
   }
 
   /* ── Two column layout ── */
