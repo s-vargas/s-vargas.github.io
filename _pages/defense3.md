@@ -110,13 +110,13 @@ sidebar: false
 
   /* ── Blockquote ── */
   blockquote {
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    border-radius: 4px;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 50%;
     padding: 2rem;
-    border-color: #D3D3D3;
-    border-width: 2px 2px 2px 2px;
-     border-style: solid solid solid solid;
+    border-color: #eaf0f0;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid solid solid solid;
   }
 </style>
 
