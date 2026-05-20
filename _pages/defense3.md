@@ -15,17 +15,19 @@ sidebar: false
     background-position: center center !important;
     background-attachment: fixed !important;
     role: "backdrop"; 
-    background-color: rgb(197, 219, 118); 
-    linear-gradient(90deg, rgb(246, 225, 130) 0%, rgb(180, 192, 87) 50%, rgb(153, 178, 75) 80%);
+    background-color: rgb(218,205,112); 
+    linear-gradient(90deg, rgb(180,201,97) 0%, rgb(188,203,100) 50%, rgb(218,205,112) 80%);
   }
 /* masthead transparency so that the background stretches all the way */
   .masthead, .page__footer {
   background: transparent !important;
 }
 
-.masthead__inner-wrap {
+/*
+  .masthead__inner-wrap {
   background: transparent !important;
-}
+} 
+  */
   .masthead a, .page__footer a, .page__footer p {
   color: #fff !important;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
@@ -112,7 +114,9 @@ sidebar: false
     -webkit-backdrop-filter: blur(6px);
     border-radius: 4px;
     padding: 2rem;
-    border: #D3D3D3;
+    border-color: #D3D3D3;
+    border-width: 2px 2px 2px 2px;
+     border-style: solid solid solid solid;
   }
 </style>
 
