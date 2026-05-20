@@ -1,4 +1,5 @@
 ---
+layout: single
 permalink: /defense/
 author_profile: false
 sidebar: false
