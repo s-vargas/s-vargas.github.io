@@ -3,17 +3,7 @@ permalink: /defense/
 author_profile: false
 sidebar: false
 ---
-html {
-  background: url("/images/oceangif.gif") center / cover no-repeat fixed;
-}
 
-.page__inner-wrap {
-  background: rgba(255, 255, 255, 0.95);
-  border-radius: 12px;
-  max-width: 900px;
-  margin: 2rem auto;
-  padding: 2rem;
-}
 <!--<div style="background-image: url('/images/oceangif.gif');
   background-size: cover;
   background-repeat: no-repeat;
@@ -67,5 +57,17 @@ html {
 </div>
 
 *Please contact svargas@umd.edu if you have any questions!*
+
+html {
+  background: url("/images/oceangif.gif") center / cover no-repeat fixed;
+}
+
+.page__inner-wrap {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
 <!--</div> 
 <!-- <body style="background-color:#ADE3AA;"> F5FFF2 -->
