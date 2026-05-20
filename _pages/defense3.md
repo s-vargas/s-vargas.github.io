@@ -178,5 +178,3 @@ sidebar: false
     </aside>
   </div>
 </div>
-
-*Please contact svargas@umd.edu if you have any questions!*
