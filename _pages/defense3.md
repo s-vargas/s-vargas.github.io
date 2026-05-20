@@ -6,6 +6,7 @@ sidebar: false
 ---
 
 <style>
+  
   /* ── Full-page background (desktop) ── */
   body {
     background-image: url('/images/grass_gif_partiful.gif') !important;
@@ -13,6 +14,9 @@ sidebar: false
     background-repeat: no-repeat !important;
     background-position: center center !important;
     background-attachment: fixed !important;
+    role: "backdrop"; 
+    background-color: rgb(197, 219, 118); 
+    linear-gradient(90deg, rgb(246, 225, 130) 0%, rgb(180, 192, 87) 50%, rgb(153, 178, 75) 80%);
   }
 /* masthead transparency so that the background stretches all the way */
   .masthead, .page__footer {
@@ -111,7 +115,6 @@ sidebar: false
     border: #D3D3D3;
   }
 </style>
-
 
 <div id="bg-fixed"></div>
 
