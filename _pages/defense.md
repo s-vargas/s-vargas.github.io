@@ -2,6 +2,10 @@
 permalink: /defense/
 author_profile: false
 sidebar: false
+background:
+  overlay_image: /images/oceangif.gif
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  
 ---
 
 <!--<div style="background-image: url('/images/oceangif.gif');
