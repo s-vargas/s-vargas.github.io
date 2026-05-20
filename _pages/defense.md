@@ -65,10 +65,4 @@ classes: narrow
 
 *Please contact svargas@umd.edu if you have any questions!*
 
-body {
-background:url('https://steemitimages.com/p/6VvuHGsoU2QBt9MXeXNdDuyd4Bmd63j7zJymDTWgdcJjo1Vz9aG9FxRTcrZ7RaCEDaJWoVmVBdpgrvMqKL9Ca1tsa8FJqQSfxuh2JB92q2HP4b5YhKLZLMUo4AQ8e1?mode=fit&format=match') repeat-y 100% 100% fixed;
-    height:100%;
-    width:100%;
-}
-
 <!-- <body style="background-color:#ADE3AA;"> F5FFF2 -->
