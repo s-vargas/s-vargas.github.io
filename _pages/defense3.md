@@ -104,6 +104,8 @@ sidebar: false
 
   /* ── Blockquote ── */
   blockquote {
+    width: 350px;
+    height: 100px;
     text-align: center;
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
