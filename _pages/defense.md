@@ -10,7 +10,6 @@ sidebar: false
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;"> 
-<div class="two-column-layout">
   <div class="scroll-column">
     <blockquote> <img class = "avatar" src="/images/tinyavatar.jpg" alt="picture of Sonia"> Sonia invited you! 💌 </blockquote>
     <h1>⚔️🐢Defending My Shell🐢⚔️</h1>
@@ -55,7 +54,6 @@ sidebar: false
       alt="Dissertation Defense Evite"
     >
   </aside>
-</div>
 </div> 
 
 *Please contact svargas@umd.edu if you have any questions!*
