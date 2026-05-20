@@ -140,12 +140,16 @@ blockquote {
 
 /* --- cool background ---*/
 
-.page__inner-wrap,
-{
-  background: transparent !important;
-}
-.gif-bg {
+/* FULL PAGE GIF BACKGROUND (ONLY PAGE WITH CLASS gif-bg) */
+body.gif-bg {
   background: url("/images/oceangif.gif") center center / cover no-repeat fixed !important;
+}
+
+/* Remove white overlays from theme containers */
+body.gif-bg #main,
+body.gif-bg .page__inner-wrap,
+body.gif-bg .archive {
+  background: transparent !important;
 }
 /* ---
 .gif-bg {
