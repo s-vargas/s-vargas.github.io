@@ -115,7 +115,7 @@ sidebar: false
   <h3>RSVP</h3> <!-- RSVP Button! -->
   <button onclick="document.getElementById('rsvp-modal').style.display='flex'" 
           style="
-            background: #FFDEED;
+            background: #FAF2F2;
             border: none;
             border-radius: 20px;
             padding: 0.6rem 1.4rem;
