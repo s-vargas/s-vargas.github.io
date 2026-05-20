@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /defense2/
+permalink: /defense/
 author_profile: false
 sidebar: false
 ---
