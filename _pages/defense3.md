@@ -109,6 +109,7 @@ sidebar: false
         <ul></ul>
       </section>
       <em>Please contact svargas@umd.edu if you have any questions!</em>
+      <a href= "https://nyc-noise.com/drone-party/">x</a>
     </div>
     <aside class="fixed-column">
       <img src="/images/Dissertation_Defense_Evite.jpg" width="auto" height="auto" alt="Dissertation Defense Evite">
