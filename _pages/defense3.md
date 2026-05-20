@@ -33,12 +33,12 @@ sidebar: false
   }
 /* I removed the frosted background so that the grass can be visible on mobile! makes it more fun and it is already pretty readable without the frost */
   /* ── Give your card a frosted/white background so text is readable ── */
-/*  .defense-card {
-    background: rgba(255, 255, 255, 0);  transparency last number 
+ .defense-card {
+    /* ──background: rgba(255, 255, 255, 0);  transparency last number  ── */
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
     border-radius: 16px;
-    padding: 2rem; */
+    padding: 2rem; 
   }
 
   /* ── Two column layout ── */
@@ -73,27 +73,33 @@ sidebar: false
   }
 
   /* ── Mobile ── */
-  @media (max-width: 768px) {
-    .two-column-layout { flex-direction: column; }
-    .fixed-column { order: -1; position: static; width: 100%; }
-  }
-  /* Mobile: tile the GIF at natural size instead of stretching */
+  /* Remove background from body on mobile — use the pseudo-element instead */
 @media (max-width: 768px) {
   body {
-    background-size: auto !important;
-    background-repeat: repeat !important;
-    background-attachment: scroll !important;
+    background-image: none !important;
   }
+}
+/* Fixed background layer that actually works on iOS */
+#bg-fixed {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image: url('/images/grassgif.gif');
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: bottom center;
 }
 </style>
 
-<div class="defense-card">
+<div id="bg-fixed"></div>
+
+<!-- <div class="defense-card"> -->
   <div class="two-column-layout">
     <div class="scroll-column">
-      <blockquote><img class="avatar" src="/images/tinyavatar.jpg" alt="picture of Sonia"> Sonia invited you! 💌</blockquote>
+      <div class="defense-card"><img class="avatar" src="/images/tinyavatar.jpg" alt="picture of Sonia"/> Sonia invited you! 💌</div>
       <h1>⚔️🐢Defending My Shell🐢⚔️</h1>
       <section>
-        <h2>July 10th, 2026</h2>
+        <h2>Friday, July 10</h2>
         <p>12:00 PM EDT</p>
       </section>
       <p>🎓 Hosted by: <img class="avatar" src="/images/tinyavatar.jpg" alt="picture of Sonia"> Sonia</p>
@@ -188,4 +194,4 @@ sidebar: false
 </div>
     </aside>
   </div>
-</div>
+<!--</div> -->
