@@ -102,11 +102,17 @@ sidebar: false
           <li>Zoom Meeting Link: <em>TBD</em></li>
         </ul>
       </section>
-      <section>
-        <h3>RSVP</h3>
         
-<section>
-  <h3>RSVP</h3>
+
+        
+        <h3>Guest List</h3>
+        <ul></ul>
+      </section>
+    </div>
+    <aside class="fixed-column">
+      <img src="/images/Dissertation_Defense_Evite.jpg" width="auto" height="auto" alt="Dissertation Defense Evite">
+      <section>
+  <h3>RSVP</h3> <!-- RSVP Button! -->
   <button onclick="document.getElementById('rsvp-modal').style.display='flex'" 
           style="
             background: #FFDEED;
@@ -118,14 +124,12 @@ sidebar: false
             font-family: inherit;
             box-shadow: 0 2px 8px rgba(0,0,0,0.15);
           ">
-    💌 RSVP Here!
+    👍 RSVP Here!
   </button>
-  <h3>Guest List</h3>
-  <ul></ul>
 </section>
 
-<!-- RSVP Modal -->
-<div id="rsvp-modal" onclick="if(event.target===this)this.style.display='none'" style="
+<!-- RSVP Modal, the pop up, the background, and being able to click out -->
+<div id="rsvp-modal" onclick="if(event.target===this)this.style.display='none'" style=" 
   display: none;
   position: fixed;
   inset: 0;
@@ -159,7 +163,7 @@ sidebar: false
       cursor: pointer;
       line-height: 1;
     ">✕</button>
-    <h3 style="margin-top:0;">💌 RSVP</h3>
+    <h3 style="margin-top:0;">👍 RSVP</h3>
     <iframe
       src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true"
       width="100%"
@@ -170,13 +174,6 @@ sidebar: false
     </iframe>
   </div>
 </div>
-        
-        <h3>Guest List</h3>
-        <ul></ul>
-      </section>
-    </div>
-    <aside class="fixed-column">
-      <img src="/images/Dissertation_Defense_Evite.jpg" width="auto" height="auto" alt="Dissertation Defense Evite">
     </aside>
   </div>
 </div>
