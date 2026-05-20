@@ -3,9 +3,9 @@ layout: single
 permalink: /defense/
 author_profile: false
 sidebar: false
-classes: gif-bg
 ---
-
+<body class="gif-bg" src="/images/oceangif.gif>
+  
 <div class="two-column-layout">
   <div class="scroll-column">
     <blockquote> <img class = "avatar" src="/images/tinyavatar.jpg" alt="picture of Sonia"> Sonia invited you! 💌 </blockquote>
@@ -64,5 +64,4 @@ classes: gif-bg
 ---
 
 *Please contact svargas@umd.edu if you have any questions!*
-<body class="gif-bg" src="/images/oceangif.gif>
 <!-- <body style="background-color:#ADE3AA;"> F5FFF2 -->
