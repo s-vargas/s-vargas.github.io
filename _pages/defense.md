@@ -13,14 +13,11 @@ sidebar: false
   <div class="scroll-column">
     <blockquote> <img class = "avatar" src="/images/tinyavatar.jpg" alt="picture of Sonia"> Sonia invited you! 💌 </blockquote>
     <h1>⚔️🐢Defending My Shell🐢⚔️</h1>
-
       <section>
         <h2>July 10th, 2026</h2>
         <p>12:00 PM</p>
     </section>
-
     <p>🎓 Hosted by: <img class = "avatar" src="/images/tinyavatar.jpg" alt="picture of Sonia"> Sonia</p>
-
     <p>
       I will be defending my dissertation project:
       <em>"Generations of Negotiation: Viewing U.S. Political Attitudes through the Lens of Contemporary Immigrant Generations"</em>
@@ -28,7 +25,6 @@ sidebar: false
       University of Maryland.  
       Please RSVP for an accurate headcount and a spotlight at the bottom of the page!
     </p>
-
     <section>
       <h3>Virtual Attendance</h3>
       <ul>
@@ -36,7 +32,6 @@ sidebar: false
         <li>Zoom Meeting Link: <em>TBD</em></li>
       </ul>
     </section>
-
     <section>
     <h3>RSVP</h3>
       <iframe 
@@ -47,13 +42,10 @@ sidebar: false
         marginheight="0"
         marginwidth="0">
       </iframe>
-
       <h3> Guest List </h3>
       <ul></ul>
     </section>
-
   </div>
-
   <aside class="fixed-column">
     <img 
       src="/images/Dissertation_Defense_Evite.jpg"
