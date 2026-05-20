@@ -106,15 +106,16 @@ sidebar: false
   blockquote {
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 2rem;
+    border: #D3D3D3;
   }
 </style>
 
 
 <div id="bg-fixed"></div>
 
- <div class="defense-card"> 
+  <!--  <div class="defense-card"> -->
 
   <!-- TOP: blockquote + title, always first -->
   <div class="top-section">
@@ -125,7 +126,6 @@ sidebar: false
   <!-- MIDDLE on mobile: evite image + RSVP button -->
   <aside class="fixed-column">
     <img src="/images/Dissertation_Defense_Evite.jpg" width="auto" height="auto" alt="Dissertation Defense Evite">
-    <section style="text-align: center;">
   <section style="text-align: center;">
   <h3>RSVP</h3> <!-- RSVP Button! -->
   <button onclick="document.getElementById('rsvp-modal').style.display='flex'" 
@@ -188,11 +188,7 @@ sidebar: false
     </iframe>
       </div>
       </div>
-  </button>
-  </section>
     </aside>
-  </div>
-</div>
 
   <!-- BOTTOM: rest of the content -->
   <div class="scroll-column">
@@ -221,5 +217,3 @@ sidebar: false
     <em>Please contact svargas@umd.edu if you have any questions!</em>
     <p><a href="https://nyc-noise.com/drone-party/">x</a></p>
   </div>
-
-</div>
