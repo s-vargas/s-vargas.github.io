@@ -34,7 +34,7 @@ sidebar: false
 
   /* ── Give your card a frosted/white background so text is readable ── */
   .defense-card {
-    background: rgba(255, 255, 255, 0.88);
+    background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
     border-radius: 16px;
@@ -111,7 +111,7 @@ sidebar: false
     </div>
     <aside class="fixed-column">
       <img src="/images/Dissertation_Defense_Evite.jpg" width="auto" height="auto" alt="Dissertation Defense Evite">
-      <section>
+  <section style="text-align: center;">
   <h3>RSVP</h3> <!-- RSVP Button! -->
   <button onclick="document.getElementById('rsvp-modal').style.display='flex'" 
           style="
@@ -126,7 +126,6 @@ sidebar: false
           ">
     👍
   </button>
-</section>
 
 <!-- RSVP Modal, the pop up, the background, and being able to click out -->
 <div id="rsvp-modal" onclick="if(event.target===this)this.style.display='none'" style=" 
@@ -176,6 +175,7 @@ sidebar: false
 </div>
     </aside>
   </div>
+  *Please contact svargas@umd.edu if you have any questions!*
 </div>
 
-*Please contact svargas@umd.edu if you have any questions!*
+
