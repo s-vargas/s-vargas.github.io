@@ -86,7 +86,7 @@ sidebar: false
       <h1>⚔️🐢Defending My Shell🐢⚔️</h1>
       <section>
         <h2>July 10th, 2026</h2>
-        <p>12:00 PM</p>
+        <p>12:00 PM EDT</p>
       </section>
       <p>🎓 Hosted by: <img class="avatar" src="/images/tinyavatar.jpg" alt="picture of Sonia"> Sonia</p>
       <p>
