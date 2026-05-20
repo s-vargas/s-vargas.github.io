@@ -232,6 +232,5 @@ sidebar: false
       marginwidth="0">
     </iframe>
   </div>
-</div>v>
 </div>
 </div>
