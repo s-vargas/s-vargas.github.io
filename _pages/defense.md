@@ -3,13 +3,13 @@ layout: single
 permalink: /defense/
 author_profile: false
 sidebar: false
-classes: narrow gif-bg
+classes: gif-bg
 ---
 
 <div class="two-column-layout">
   <div class="scroll-column">
     <blockquote> <img class = "avatar" src="/images/tinyavatar.jpg" alt="picture of Sonia"> Sonia invited you! 💌 </blockquote>
-    <h1>Defending My Shell</h1>
+    <h1>⚔️🐢Defending My Shell🐢⚔️</h1>
 
       <section>
         <h2>July 10th, 2026</h2>
