@@ -15,8 +15,8 @@ sidebar: false
     background-position: center center !important;
     background-attachment: fixed !important;
     role: "backdrop"; 
-    /* background-color: rgb(218,205,112); */
-    background: linear-gradient(#B4C961, #DACD70);
+    background-color: rgb(218,205,112); 
+    /* background: linear-gradient(#B4C961, #DACD70); */
   }
 /* masthead transparency so that the background stretches all the way */
   .masthead, .page__footer {
@@ -110,6 +110,8 @@ sidebar: false
 
   /* ── Blockquote ── */
   blockquote {
+    width: 200px;
+    height:100px;
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
     border-radius:15px;
