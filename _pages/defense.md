@@ -34,7 +34,7 @@ sidebar: false
 
   /* ── Give your card a frosted/white background so text is readable ── */
   .defense-card {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.65);
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
     border-radius: 16px;
@@ -101,6 +101,7 @@ sidebar: false
           <li>For those unable to join in person, a Zoom link will be provided.</li>
           <li>Zoom Meeting Link: <em>TBD</em></li>
         </ul>
+          *Please contact svargas@umd.edu if you have any questions!*
       </section>
         
 
@@ -175,7 +176,6 @@ sidebar: false
 </div>
     </aside>
   </div>
-  *Please contact svargas@umd.edu if you have any questions!*
 </div>
 
 
