@@ -139,14 +139,13 @@ blockquote {
 }
 
 /* --- cool background ---*/
-body.gif-bg {
-  background: url("/images/oceangif.gif") center center / cover no-repeat fixed !important;
-}
 
 .page__inner-wrap,
-.page__content,
-.archive {
+{
   background: transparent !important;
+}
+.gif-bg {
+  background: url("/images/oceangif.gif") center center / cover no-repeat fixed !important;
 }
 /* ---
 .gif-bg {
