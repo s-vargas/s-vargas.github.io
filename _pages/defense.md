@@ -3,8 +3,8 @@ layout: single
 permalink: /defense/
 author_profile: false
 sidebar: false
+classes: gif-bg
 ---
-<body class="gif-bg" src="/images/oceangif.gif>
   
 <div class="two-column-layout">
   <div class="scroll-column">
