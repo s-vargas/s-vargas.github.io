@@ -6,7 +6,7 @@ sidebar: false
 header:
   overlay_image: /images/oceangif.gif
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-excerpt: >
+excerpt: 
   <div class="two-column-layout">
   <div class="scroll-column">
     <blockquote> <img class = "avatar" src="/images/tinyavatar.jpg" alt="picture of Sonia"> Sonia invited you! 💌 </blockquote>
