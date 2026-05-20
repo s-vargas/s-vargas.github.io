@@ -14,13 +14,26 @@ sidebar: false
     background-position: center center !important;
     background-attachment: fixed !important;
   }
+/* masthead transparency so that the background stretches all the way */
+  .masthead, .page__footer {
+  background: transparent !important;
+}
 
+.masthead__inner-wrap {
+  background: transparent !important;
+}
+  .masthead a, .page__footer a, .page__footer p {
+  color: #fff !important;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+  
   /* ── Mobile: use fixed div instead (iOS Safari fix) ── */
   @media (max-width: 768px) {
     body {
       background-image: none !important;
     }
   }
+  
 
   /* ── Fixed background div for mobile ── */
   #bg-fixed {
@@ -102,26 +115,6 @@ sidebar: false
 <div id="bg-fixed"></div>
 
  <div class="defense-card"> 
-  <div class="two-column-layout">
-    <div class="scroll-column">
-      <blockquote><img class="avatar" src="/images/tinyavatar.jpg" alt="picture of Sonia"> Sonia invited you! 💌</blockquote>
-      <h1>⚔️🐢Defending My Shell🐢⚔️</h1>
-      <section>
-        <h2>Friday, July 10</h2>
-        <p>12:00 PM EDT</p>
-      </section>
-      <p>🎓 Hosted by: <img class="avatar" src="/images/tinyavatar.jpg" alt="picture of Sonia"> Sonia</p>
-      <p>
-        I will be defending my dissertation project:
-        <em>"Generations of Negotiation: Viewing U.S. Political Attitudes through the Lens of Contemporary Immigrant Generations"</em>
-        in fulfillment of the requirements for the degree of Doctor of Philosophy in Government and Politics from the
-        University of Maryland. Please RSVP for an accurate headcount and a spotlight at the bottom of the page!
-      </p>
-      <section>
-        <h3>Virtual Attendance</h3>
-        <ul>
-          <li>For those unable to join in person, a Zoom link will be provided.</li>
-          <li>Zoom<div class="two-column-layout">
 
   <!-- TOP: blockquote + title, always first -->
   <div class="top-section">
