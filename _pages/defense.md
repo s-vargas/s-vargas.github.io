@@ -3,12 +3,22 @@ permalink: /defense/
 author_profile: false
 sidebar: false
 ---
+html {
+  background: url("/images/oceangif.gif") center / cover no-repeat fixed;
+}
 
-<div style="background-image: url('/images/oceangif.gif');
+.page__inner-wrap {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+<!--<div style="background-image: url('/images/oceangif.gif');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;"> 
+  background-attachment: fixed;"> -->
 <div class="two-column-layout">
   <div class="scroll-column">
     <blockquote> <img class = "avatar" src="/images/tinyavatar.jpg" alt="picture of Sonia"> Sonia invited you! 💌 </blockquote>
@@ -57,5 +67,5 @@ sidebar: false
 </div>
 
 *Please contact svargas@umd.edu if you have any questions!*
-</div> 
+<!--</div> 
 <!-- <body style="background-color:#ADE3AA;"> F5FFF2 -->
