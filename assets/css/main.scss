@@ -138,31 +138,6 @@ blockquote {
   margin: 1rem 0;
 }
 
-/* --- cool background ---*/
-
-/* ===========================
-   FULL PAGE GIF BACKGROUND
-   (Minimal Mistakes override)
-=========================== */
-
-body.gif-bg {
-  background: url("/images/oceangif.gif") center/cover no-repeat fixed !important;
-}
-
-/* kill all MM white overlays */
-body.gif-bg,
-body.gif-bg #main,
-body.gif-bg .page,
-body.gif-bg .page__inner-wrap,
-body.gif-bg .archive {
-  background: transparent !important;
-}
-
-/* optional safety override */
-body.gif-bg #main {
-  min-height: 100vh;
-}
-/* ---
 .gif-bg {
   background-image: url('/images/oceangif.gif');
   background-size: cover;
@@ -170,17 +145,5 @@ body.gif-bg #main {
   background-position: center;
   background-attachment: fixed;
 }
-.page__inner-wrap,
-.page__content,
-.archive {
-  background: transparent !important;
-}
-/* --- cool background attempt 2 
-body[class*="gif-bg"] {
-  background-image: url("/images/oceangif.gif");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-}--*/
+
 
