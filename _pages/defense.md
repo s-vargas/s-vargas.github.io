@@ -12,10 +12,8 @@ classes: narrow
     <h1>Defending My Shell</h1>
 
       <section>
-      <ul>
-        <h2><li>July 10th, 2026</li></h2>
-        <h3><li>12:00 PM</li></h3>
-      </ul>
+        <h2>July 10th, 2026</h2>
+        <p>12:00 PM</p>
     </section>
 
     <p>🎓 Hosted by: <img class = "avatar" src="/images/tinyavatar.jpg" alt="picture of Sonia"> Sonia</p>
@@ -41,7 +39,7 @@ classes: narrow
       <iframe 
         src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true"
         width="400"
-        height="700"
+        height="900"
         frameborder="0"
         marginheight="0"
         marginwidth="0">
@@ -56,8 +54,8 @@ classes: narrow
   <aside class="fixed-column">
     <img 
       src="/images/Dissertation_Defense_Evite.jpg"
-      width="700"
-      height="1000"
+      width=auto
+      height=auto
       alt="Dissertation Defense Evite"
     >
   </aside>
