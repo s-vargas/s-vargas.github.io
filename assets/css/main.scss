@@ -143,19 +143,19 @@ blockquote {
   margin: 1rem 0;
 }
 
-/* --- cool background 
+/* --- cool background ---*/
 body.gif-bg {
   background-image: url('/images/oceangif.gif');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-attachment: fixed;
-}---*/
-/* --- cool background attempt 2 --*/
+}
+/* --- cool background attempt 2 
 body[class*="gif-bg"] {
   background-image: url("/images/oceangif.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-}
+}--*/
