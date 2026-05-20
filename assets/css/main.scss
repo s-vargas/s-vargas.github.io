@@ -140,16 +140,27 @@ blockquote {
 
 /* --- cool background ---*/
 
-/* FULL PAGE GIF BACKGROUND (ONLY PAGE WITH CLASS gif-bg) */
+/* ===========================
+   FULL PAGE GIF BACKGROUND
+   (Minimal Mistakes override)
+=========================== */
+
 body.gif-bg {
-  background: url("/images/oceangif.gif") center center / cover no-repeat fixed !important;
+  background: url("/images/oceangif.gif") center/cover no-repeat fixed !important;
 }
 
-/* Remove white overlays from theme containers */
+/* kill all MM white overlays */
+body.gif-bg,
 body.gif-bg #main,
+body.gif-bg .page,
 body.gif-bg .page__inner-wrap,
 body.gif-bg .archive {
   background: transparent !important;
+}
+
+/* optional safety override */
+body.gif-bg #main {
+  min-height: 100vh;
 }
 /* ---
 .gif-bg {
