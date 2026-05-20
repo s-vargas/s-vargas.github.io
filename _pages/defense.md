@@ -64,5 +64,5 @@ classes: gif-bg
 ---
 
 *Please contact svargas@umd.edu if you have any questions!*
-
+<body class="gif-bg">
 <!-- <body style="background-color:#ADE3AA;"> F5FFF2 -->
