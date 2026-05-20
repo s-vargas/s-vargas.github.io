@@ -4,11 +4,11 @@ author_profile: false
 sidebar: false
 ---
 
-<div style="background-image: url('/images/oceangif.gif');
+<!--<div style="background-image: url('/images/oceangif.gif');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;">
+  background-attachment: fixed;"> -->
 <div class="two-column-layout">
   <div class="scroll-column">
     <blockquote> <img class = "avatar" src="/images/tinyavatar.jpg" alt="picture of Sonia"> Sonia invited you! 💌 </blockquote>
@@ -55,7 +55,7 @@ sidebar: false
     >
   </aside>
 </div>
----
+
 *Please contact svargas@umd.edu if you have any questions!*
-</div>
+<!-- </div> -->
 <!-- <body style="background-color:#ADE3AA;"> F5FFF2 -->
