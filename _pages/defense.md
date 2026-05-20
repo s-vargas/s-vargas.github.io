@@ -124,7 +124,7 @@ sidebar: false
             font-family: inherit;
             box-shadow: 0 2px 8px rgba(0,0,0,0.15);
           ">
-    👍 RSVP Here!
+    👍
   </button>
 </section>
 
