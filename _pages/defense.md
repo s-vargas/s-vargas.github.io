@@ -56,8 +56,9 @@ sidebar: false
     >
   </aside>
 </div>
+</div> 
 
 *Please contact svargas@umd.edu if you have any questions!*
 
-</div> 
+
 <!-- <body style="background-color:#ADE3AA;"> F5FFF2 -->
