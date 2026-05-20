@@ -3,7 +3,7 @@ layout: single
 permalink: /defense/
 author_profile: false
 sidebar: false
-classes: narrow
+classes: narrow gif-bg
 ---
 
 <div class="two-column-layout">
