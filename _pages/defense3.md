@@ -104,18 +104,19 @@ sidebar: false
       </section>
         
 
-        
+      <section>  
         <h3>Guest List</h3>
         <ul></ul>
       </section>
+      <em>Please contact svargas@umd.edu if you have any questions!</em>
     </div>
     <aside class="fixed-column">
       <img src="/images/Dissertation_Defense_Evite.jpg" width="auto" height="auto" alt="Dissertation Defense Evite">
-      <section>
+  <section style="text-align: center;">
   <h3>RSVP</h3> <!-- RSVP Button! -->
   <button onclick="document.getElementById('rsvp-modal').style.display='flex'" 
           style="
-            background: #FFDEED;
+            background: #FAF2F2;
             border: none;
             border-radius: 20px;
             padding: 0.6rem 1.4rem;
@@ -124,7 +125,7 @@ sidebar: false
             font-family: inherit;
             box-shadow: 0 2px 8px rgba(0,0,0,0.15);
           ">
-    👍 RSVP Here!
+    👍
   </button>
 </section>
 
