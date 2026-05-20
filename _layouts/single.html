@@ -14,16 +14,20 @@ layout: default
 
 <div id="main" role="main">
 
-<!--  <div class="page__inner-wrap"> -->
+  <div class="page__inner-wrap">
 
-    {% unless page.classes contains page.sidebar == false %}
+    {% if page.sidebar != false %}
       {% include sidebar.html %}
-    {% endunless %}
+    {% endif %}
 
     <section class="page__content">
-    {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 class="page__title">{{ page.title }}</h1>
-    {% endunless %}
-    {{ content }}
-  <!--</div>-->
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+        <h1 class="page__title">{{ page.title }}</h1>
+      {% endunless %}
+
+      {{ content }}
+    </section>
+
+  </div>
 </div>
+
