@@ -142,3 +142,12 @@ blockquote {
   border-left: 3px solid #FFDEED;
   margin: 1rem 0;
 }
+
+/* --- cool background ---*/
+body.gif-bg {
+  background-image: url("https://steemitimages.com/p/6VvuHGsoU2QBt9MXeXNdDuyd4Bmd63j7zJymDTWgdcJjo1Vz9aG9FxRTcrZ7RaCEDaJWoVmVBdpgrvMqKL9Ca1tsa8FJqQSfxuh2JB92q2HP4b5YhKLZLMUo4AQ8e1?mode=fit&format=match");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
