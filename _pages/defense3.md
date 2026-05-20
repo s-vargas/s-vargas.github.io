@@ -126,22 +126,73 @@ sidebar: false
   <aside class="fixed-column">
     <img src="/images/Dissertation_Defense_Evite.jpg" width="auto" height="auto" alt="Dissertation Defense Evite">
     <section style="text-align: center;">
-      <h3>RSVP</h3>
-      <button onclick="document.getElementById('rsvp-modal').style.display='flex'"
-              style="
-                background: #FAF2F2;
-                border: none;
-                border-radius: 20px;
-                padding: 0.6rem 1.4rem;
-                font-size: 1rem;
-                cursor: pointer;
-                font-family: inherit;
-                box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-              ">
-        👍
-      </button>
-    </section>
-  </aside>
+  <section style="text-align: center;">
+  <h3>RSVP</h3> <!-- RSVP Button! -->
+  <button onclick="document.getElementById('rsvp-modal').style.display='flex'" 
+          style="
+            background: #FAF2F2;
+            border: none;
+            border-radius: 20px;
+            padding: 0.6rem 1.4rem;
+            font-size: 1rem;
+            cursor: pointer;
+            font-family: inherit;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+          ">
+    👍
+  </button>
+</section>
+<!-- RSVP Modal, the pop up, the background, and being able to click out -->
+<div id="rsvp-modal" onclick="if(event.target===this)this.style.display='none'" style=" 
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(4px);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+">
+  <div style="
+    background: white;
+    border-radius: 16px;
+    padding: 1.5rem;
+    max-width: 480px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  ">
+    <button onclick="document.getElementById('rsvp-modal').style.display='none'" style="
+      position: absolute;
+      top: 0.75rem;
+      right: 0.75rem;
+      background: #FAF2F2;
+      border: none;
+      border-radius: 50%;
+      width: 28px;
+      height: 28px;
+      font-size: 1rem;
+      cursor: pointer;
+      line-height: 1;
+    ">✕</button>
+    <h3 style="margin-top:0;">👍 RSVP</h3>
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLSeWVrfyCb93FyXVR1wuGnnAC-bRfPutclS7-3aCzppddc8yqQ/viewform?embedded=true"
+      width="100%"
+      height="700"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0">
+    </iframe>
+      </div>
+      </div>
+  </button>
+  </section>
+    </aside>
+  </div>
+</div>
 
   <!-- BOTTOM: rest of the content -->
   <div class="scroll-column">
