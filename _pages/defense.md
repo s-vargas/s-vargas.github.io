@@ -62,6 +62,6 @@ classes: gif-bg
 </div>
 
 ---
-
+<div class = "gif-bg"></div>
 *Please contact svargas@umd.edu if you have any questions!*
 <!-- <body style="background-color:#ADE3AA;"> F5FFF2 -->
