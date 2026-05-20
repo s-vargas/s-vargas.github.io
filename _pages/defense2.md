@@ -5,13 +5,6 @@ author_profile: false
 sidebar: false
 ---
 
----
-layout: single
-permalink: /defense2/
-author_profile: false
-sidebar: false
----
-
 <style>
 
   /* ── Full-page background (desktop) ── */
