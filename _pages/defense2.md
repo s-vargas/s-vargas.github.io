@@ -167,22 +167,26 @@ sidebar: false
   <!-- RIGHT COLUMN: sticky image + RSVP -->
   <aside class="fixed-column">
     <img src="/images/Dissertation_Defense_Evite.jpg" width="auto" height="auto" alt="Dissertation Defense Evite">
-    <section style="text-align: center;">
-      <h3>RSVP</h3>
-      <button onclick="document.getElementById('rsvp-modal').style.display='flex'"
-              style="
-                background: #FAF2F2;
-                border: none;
-                border-radius: 20px;
-                padding: 0.6rem 1.4rem;
-                font-size: 1rem;
-                cursor: pointer;
-                font-family: inherit;
-                box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-              ">
-        👍
-      </button>
-    </section>
+     <section style="text-align: center;">
+  <h3>RSVP</h3>
+  <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MGg3NWx0cHAyY3V2bnRpaDVpc3ZmNzFtazUgc3Zhcmdhc0B1bWQuZWR1&tmsrc=svargas%40umd.edu"
+     target="_blank"
+     style="
+       display: inline-block;
+       background: #FAF2F2;
+       border: none;
+       border-radius: 20px;
+       padding: 0.6rem 1.4rem;
+       font-size: 1rem;
+       cursor: pointer;
+       font-family: inherit;
+       box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+       text-decoration: none;
+       color: inherit;
+     ">
+    📅 Add to Calendar
+  </a>
+</section>
   </aside>
 
 </div>
