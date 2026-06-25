@@ -146,6 +146,7 @@ sidebar: false
         <em>"Generations of Negotiation: Viewing U.S. Political Attitudes through the Lens of Contemporary Immigrant Generations"</em>
         in fulfillment of the requirements for the degree of Doctor of Philosophy in Government and Politics from the
         University of Maryland. Please RSVP!
+        In person attendees are also invited to an afternoon celebration in DC after the defense :)
       </p>
       <section>
         <h3>Virtual Attendance</h3>
