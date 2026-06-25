@@ -145,7 +145,7 @@ sidebar: false
         I will be defending my dissertation project:
         <em>"Generations of Negotiation: Viewing U.S. Political Attitudes through the Lens of Contemporary Immigrant Generations"</em>
         in fulfillment of the requirements for the degree of Doctor of Philosophy in Government and Politics from the
-        University of Maryland. Please RSVP for an accurate headcount and a spotlight at the bottom of the page!
+        University of Maryland. Please RSVP!
       </p>
       <section>
         <h3>Virtual Attendance</h3>
