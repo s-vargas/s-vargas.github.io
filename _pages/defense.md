@@ -154,10 +154,6 @@ sidebar: false
           <li>Zoom Meeting Link: <em>TBD</em></li>
         </ul>
       </section>
-      <section>
-        <h3>Guest List</h3>
-        <ul></ul>
-      </section>
       <em>Please contact svargas@umd.edu if you have any questions!</em>
       <p><a href="https://nyc-noise.com/drone-party/">x</a></p>
     </div>
